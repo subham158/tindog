@@ -1,0 +1,146 @@
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* navigation bar */
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight:400;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* Downloads buttons */
+.download-button {
+  margin:5% 3% 5% 0;
+}
+  /* title image  */
+.title-image{
+  width:60%;
+  transform:rotate(25deg);
+position:absolute;
+right:30%;
+}
+/* features */
+.icon{
+color:#ef8172;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color:#8f8f8f;
+}
+#features{
+  padding:7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position:relative;
+
+
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  padding:7% 15%;
+  color:#fff;
+
+
+}
+.testimonials-img{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+.img-press{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/* pricing */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+
+}
+@media (max-width:989px){
+#title{
+  text-align:center;
+}
+
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  .featute-box{
+    padding-bottom:70px;
+  }
+}
+/* Cta section */
+#cta{
+  background-color: #ff4c68;
+  padding:7% 15%;
+  text-align: center;
+}
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+/* footer */
+#footer{
+  background-color:#fff;
+  padding:7% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin:3% 2%;
+  color:#8f8f8f;
+}
+.footer-icon:hover{
+  color:#39A9CB;
+}
